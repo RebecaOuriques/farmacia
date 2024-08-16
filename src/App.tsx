@@ -13,7 +13,7 @@ function App() {
       <Navbar />
         <div className='min-h-[75vh]'>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home />} />
         </Routes>
         </div>
         <Footer />
