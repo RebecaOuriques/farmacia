@@ -4,7 +4,7 @@ import homeLogo from '../../assets/homeLogo.png'
 const Home = () => {
   return (
     <>
-      <div className='bg-blue-300 grid grid-cols-2 flex justify-around'>
+      <div className='h-full bg-blue-300 grid grid-cols-2 flex justify-around'>
 
         <img src={homeLogo} alt='Logo da farmácia' className='col-span-1 w-[80vh] flex items-center justify-center' />
         <div className='col-span-1 flex items-center flex-col justify-center w-[80vh]'>
