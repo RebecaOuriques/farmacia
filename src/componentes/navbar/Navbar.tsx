@@ -12,7 +12,6 @@ const Navbar = () => {
         </div>
 
         <div className='items-center text-blue-500 flex justify-around text-lg'>
-          <div className='p-2'>Produtos</div>
           <Link to='/categorias' className='p-2'>Categorias</Link>
           <Link to='/cadastroCategoria' className='p-2'>Cadastrar categoria</Link>
         </div>
